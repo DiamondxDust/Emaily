@@ -25,7 +25,7 @@ app.use(passport.session());
 authRoutes(app);
 
 app.get('/', (req, res) => {
-    res.send("Hiya");
+    res.send("Hey");
 })
 
 
